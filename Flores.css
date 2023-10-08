@@ -1,0 +1,33 @@
+.card {
+    width: 200px;
+    border: 2px solid #eb14d2;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: azure;
+    margin: 15px;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.card-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: blueviolet;
+}
+
+.card-description {
+    font-size: 14px;
+    margin-top: 10px;
+    font-style: italic;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+

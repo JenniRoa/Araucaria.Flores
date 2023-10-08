@@ -1,0 +1,136 @@
+body {
+    background-color: azure;
+}
+
+nav {
+    background-color: aquamarine;
+    padding: 0.5rem;
+    
+}
+
+nav div {
+    display: inline-block;
+}
+
+.Flex {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.Enlace>a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.promo {
+    background-color: yellow;
+    padding: 2.5rem;
+}
+
+.marquee-container {
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+  }
+  
+  .marquee {
+    display: inline-block;
+    animation: marquee 10s linear infinite;
+  }
+
+  .marquee {
+    font-size: 2rem;
+  }
+  
+  @keyframes marquee {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+
+  .row>div {
+    display: inline-block;
+  }
+
+  .flex-container {
+    display: flex;
+    height: 25px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .material-icons {
+    font-size: 50px;
+    color: blueviolet;
+  }
+
+  iframe {
+    margin-right: 100px;
+    margin-left: 20px;
+  }
+
+  .formulario>input {
+    height: 1.5rem;
+    width: 20rem;
+  }
+
+  .formulario {
+    margin-top: 10px;
+  }
+
+  .formulario2 {
+    margin-top: 10px;
+  }
+
+  .textoA {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: blueviolet;
+    padding-left: 2.7rem;
+    margin-top: 20rem;
+  }
+  .texto {
+    font-size: 2.5rem;
+    color: blueviolet;
+    font-weight: bold;
+
+  }
+
+  footer {
+    margin-top: 35px;
+  }
+
+  footer>div>a{
+    margin-left: 2rem;
+    color: rgb(14, 194, 14);
+    font-size: 30px;
+  }
+
+  #titulo {
+    font-size: 2rem;
+    margin-left: 70px;
+    color: blueviolet;
+    font-weight: bold;
+
+  }
+
+  .union{
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  footer>div .material-icons {
+    color: red;
+    font-size: 35px;
+  }
+
+  .flex-container>div {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 13.2rem;
+  }
